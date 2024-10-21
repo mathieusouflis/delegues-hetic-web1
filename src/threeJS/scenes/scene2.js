@@ -1,4 +1,3 @@
-wimport gsap from "gsap-trial";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/Addons.js";
 
