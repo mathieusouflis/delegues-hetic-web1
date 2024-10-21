@@ -1,0 +1,11 @@
+Model Information:
+* title:	Advertisement Billboard
+* source:	https://sketchfab.com/3d-models/advertisement-billboard-5fc2312a0a4b4ab091dde68098bd1f78
+* author:	SINOFWRATH (https://sketchfab.com/SINOFWRATH)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Advertisement Billboard" (https://sketchfab.com/3d-models/advertisement-billboard-5fc2312a0a4b4ab091dde68098bd1f78) by SINOFWRATH (https://sketchfab.com/SINOFWRATH) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

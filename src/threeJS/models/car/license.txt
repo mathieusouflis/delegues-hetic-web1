@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ford Angila | Low Poly Car
+* source:	https://sketchfab.com/3d-models/ford-angila-low-poly-car-228fefd21ff74e58bc52c866614d2108
+* author:	sudeepsingh (https://sketchfab.com/sudeepsingh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ford Angila | Low Poly Car" (https://sketchfab.com/3d-models/ford-angila-low-poly-car-228fefd21ff74e58bc52c866614d2108) by sudeepsingh (https://sketchfab.com/sudeepsingh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

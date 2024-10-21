@@ -1,0 +1,731 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3870,
+      "max": [
+        0.4033207595348358,
+        3.1585328578948975,
+        1.6697916984558105
+      ],
+      "min": [
+        -0.4033207595348358,
+        -3.1585328578948975,
+        -1.6697916984558105
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46440,
+      "componentType": 5126,
+      "count": 3870,
+      "max": [
+        0.9639857411384583,
+        0.9320411682128906,
+        0.9644895195960999
+      ],
+      "min": [
+        -0.9639857411384583,
+        -0.9320411682128906,
+        -0.9644895195960999
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3870,
+      "max": [
+        1.0,
+        0.9982981085777283
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5808,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 92880,
+      "componentType": 5126,
+      "count": 2769,
+      "max": [
+        3.276578903198242,
+        1.7373547554016113,
+        0.12515747547149658
+      ],
+      "min": [
+        -3.2767174243927,
+        -1.7371020317077637,
+        -0.021669387817382813
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 126108,
+      "componentType": 5126,
+      "count": 2769,
+      "max": [
+        0.9933674335479736,
+        0.5021799802780151,
+        1.0
+      ],
+      "min": [
+        -0.9937509298324585,
+        -0.5751683115959167,
+        -0.41665762662887573
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30960,
+      "componentType": 5126,
+      "count": 2769,
+      "max": [
+        0.9568337202072144,
+        0.8420329093933105
+      ],
+      "min": [
+        0.06404028087854385,
+        0.1541576087474823
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 23232,
+      "componentType": 5125,
+      "count": 15960,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 159336,
+      "componentType": 5126,
+      "count": 254,
+      "max": [
+        0.016642361879348755,
+        0.24302875995635986,
+        -0.39911219477653503
+      ],
+      "min": [
+        -0.06517815589904785,
+        -0.24302899837493896,
+        -0.4238090515136719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 162384,
+      "componentType": 5126,
+      "count": 254,
+      "max": [
+        0.7462614178657532,
+        6.396035132638644e-07,
+        0.9998630881309509
+      ],
+      "min": [
+        -0.5801829099655151,
+        -2.5227470246136363e-07,
+        0.6656530499458313
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 53112,
+      "componentType": 5126,
+      "count": 254,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 87072,
+      "componentType": 5125,
+      "count": 384,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 165432,
+      "componentType": 5126,
+      "count": 1846,
+      "max": [
+        0.05249843746423721,
+        5.27023458480835,
+        -0.4003784656524658
+      ],
+      "min": [
+        -0.11365543305873871,
+        -1.9496060609817505,
+        -0.6938636898994446
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 187584,
+      "componentType": 5126,
+      "count": 1846,
+      "max": [
+        0.9987151622772217,
+        0.6947228312492371,
+        0.9883220791816711
+      ],
+      "min": [
+        -0.9987152218818665,
+        -0.6947228908538818,
+        -0.9883221387863159
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 55144,
+      "componentType": 5126,
+      "count": 1846,
+      "max": [
+        0.9900000095367432,
+        0.49000000953674316
+      ],
+      "min": [
+        0.01000000536441803,
+        0.01000000536441803
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 88608,
+      "componentType": 5125,
+      "count": 10356,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 209736,
+      "componentType": 5126,
+      "count": 1004,
+      "max": [
+        -0.03836985304951668,
+        0.8190865516662598,
+        -0.3990454077720642
+      ],
+      "min": [
+        -0.10823716223239899,
+        0.33302778005599976,
+        -0.4920683801174164
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 221784,
+      "componentType": 5126,
+      "count": 1004,
+      "max": [
+        -0.31693726778030396,
+        1.31858598706458e-06,
+        0.9484465718269348
+      ],
+      "min": [
+        -0.9722237586975098,
+        -1.010892674457864e-06,
+        0.234053373336792
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 69912,
+      "componentType": 5126,
+      "count": 1004,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 130032,
+      "componentType": 5125,
+      "count": 1536,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 233832,
+      "componentType": 5126,
+      "count": 2769,
+      "max": [
+        3.276578903198242,
+        1.7373547554016113,
+        0.12515747547149658
+      ],
+      "min": [
+        -3.2767174243927,
+        -1.7371020317077637,
+        -0.021669387817382813
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 267060,
+      "componentType": 5126,
+      "count": 2769,
+      "max": [
+        0.9933674335479736,
+        0.5021799802780151,
+        1.0
+      ],
+      "min": [
+        -0.9937509298324585,
+        -0.5751683115959167,
+        -0.41665762662887573
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 77944,
+      "componentType": 5126,
+      "count": 2769,
+      "max": [
+        0.9568337202072144,
+        0.8420329093933105
+      ],
+      "min": [
+        0.06404028087854385,
+        0.1541576087474823
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 136176,
+      "componentType": 5125,
+      "count": 15960,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "SINOFWRATH (https://sketchfab.com/SINOFWRATH)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/advertisement-billboard-5fc2312a0a4b4ab091dde68098bd1f78",
+      "title": "Advertisement Billboard"
+    },
+    "generator": "Sketchfab-13.56.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 200016,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 100096,
+      "byteOffset": 200016,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 300288,
+      "byteOffset": 300112,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 600400,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.004",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "BILLBOARD",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.003",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8040408205773457
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8211145618000169
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.002",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8040408205773457
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube_Material.004_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "BILLBOARD.001_BILLBOARD_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane.002_Material.003_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane.002_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane.002_Material.002_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "BILLBOARD.002_BILLBOARD_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "sign board.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        4.371139006309477e-06,
+        -1.1102230246251565e-14,
+        -99.99999999999991,
+        0.0,
+        -99.99999999999982,
+        -4.371139006309477e-06,
+        -4.371139011860592e-06,
+        0.0,
+        -4.371139011860592e-06,
+        99.99999999999991,
+        -1.9984014443252818e-13,
+        0.0,
+        -23.310550689697266,
+        887.00390625,
+        -23.310548782348633,
+        1.0
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube_Material.004_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -99.99999999999235,
+        4.371138840919929e-06,
+        3.8941437775530126e-05,
+        0.0,
+        4.371137138735391e-06,
+        99.99999999999982,
+        -4.3711402620054e-06,
+        0.0,
+        -3.894143796659866e-05,
+        -4.371138559821416e-06,
+        -99.99999999999235,
+        0.0,
+        -23.305957794189453,
+        887.3031616210938,
+        16.342937469482422,
+        1.0
+      ],
+      "name": "BILLBOARD.001"
+    },
+    {
+      "mesh": 1,
+      "name": "BILLBOARD.001_BILLBOARD_0"
+    },
+    {
+      "children": [
+        8,
+        9,
+        10
+      ],
+      "matrix": [
+        346.78255363237645,
+        2.2531096039320948e-13,
+        -181.2016581539553,
+        0.0,
+        2.0243252146816024e-06,
+        99.9999999999999,
+        3.8741405405040295e-06,
+        0.0,
+        102.58565793184977,
+        -9.682680847215683e-06,
+        196.32776424947843,
+        0.0,
+        43.420310974121094,
+        196.3914794921875,
+        78.56362915039063,
+        1.0
+      ],
+      "name": "Plane.002"
+    },
+    {
+      "mesh": 2,
+      "name": "Plane.002_Material.003_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Plane.002_Material.001_0"
+    },
+    {
+      "mesh": 4,
+      "name": "Plane.002_Material.002_0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        99.99999999999706,
+        4.3711384734023005e-06,
+        -2.384185791015604e-05,
+        0.0,
+        -4.371137431241543e-06,
+        99.99999999999982,
+        4.371139539216404e-06,
+        0.0,
+        2.3841858101224552e-05,
+        -4.3711384970559005e-06,
+        99.99999999999706,
+        0.0,
+        -22.343666076660156,
+        887.3031616210938,
+        -63.64423751831055,
+        1.0
+      ],
+      "name": "BILLBOARD.002"
+    },
+    {
+      "mesh": 5,
+      "name": "BILLBOARD.002_BILLBOARD_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
