@@ -215,6 +215,8 @@ const createScene1 = async (sizes) => {
    */
 
   // Base camera
+
+
   const camera = new THREE.PerspectiveCamera(
     25,
     sizes.width / sizes.height,
@@ -226,7 +228,14 @@ const createScene1 = async (sizes) => {
   camera.position.y = 4.5;
 
   camera.rotation.order = "YXZ";
-  scene.add(camera);
+
+  // TEST
+  const cameraGroup = new THREE.Group()
+  cameraGroup.add(camera)
+
+  scene.add(cameraGroup);
+
+  // FIN TEST
 
   currentLookAt = { x: billboard.position.x, y: 4.5, z: billboard.position.z };
   camera.lookAt(currentLookAt.x, currentLookAt.y, currentLookAt.z);
@@ -247,7 +256,7 @@ const createScene1 = async (sizes) => {
   sky.material.uniforms["sunPosition"].value.set(3, -0.038, 0.2);
   const assets = {
     scene,
-    camera,
+    cameraGroup,
     forest,
     billboard,
     billboard_2,
@@ -262,16 +271,17 @@ const createScene1 = async (sizes) => {
  * Animate
  */
 
-const animateScene1 = (assets) => {
+const animateScene1 = (assets, deltaTime) => {
   let {
     ambientLight,
-    camera,
+    cameraGroup,
     forest,
     billboard,
     billboard_2,
     pointLight,
     group,
   } = assets;
+  const camera = cameraGroup.children[0]
   if (forest) {
     group.add(forest);
   }
@@ -286,22 +296,21 @@ const animateScene1 = (assets) => {
   }
 
   const phase = localStorage.getItem("phase");
-  if (group && group.children.length <= 4) {
-    // ---------------- ANIM 1
 
+  if (group && group.children.length <= 4) {
     if (phase === "2") {
-      gsap.to(ambientLight, {
-        duration: 1,
-        intensity:
-          group.position.z < -31.5 && camera.position.y >= 4.58 ? 10 : 0.01,
-        onComplete: () => {
-          if (group.position.z < -31.5 && camera.position.y >= 4.58) {
-            gsap.delayedCall(0.2, () => {
-              localStorage.setItem("phase", 3);
-            });
-          }
-        },
-      });
+        gsap.to(ambientLight, {
+          duration: 1,
+          intensity:
+            group.position.z < -31.5 && camera.position.y >= 4.58 ? 10 : 0.01,
+          onComplete: () => {
+            if (group.position.z < -31.5 && camera.position.y >= 4.58) {
+              gsap.delayedCall(0.2, () => {
+                localStorage.setItem("phase", 3);
+              });
+            }
+          },
+        });
 
       const targetPosition =
         group.position.z > -31.5
@@ -328,7 +337,7 @@ const animateScene1 = (assets) => {
         },
         onComplete: () => {
           if (group.position.z > -31.5) {
-            group.position.z -= 0.032;
+            group.position.z -= 0.032 * deltaTime * 100;
           }
         },
       });

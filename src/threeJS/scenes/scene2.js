@@ -51,6 +51,7 @@ export const createScene2 = async (sizes) => {
               -5 + Math.random() * (5 + 5),
               -10 + Math.random() * (10 + 10),
             );
+            text.rotation.set(1, 1, 1)
             distances.push({
               x: calculateDistance(child.position.x, initialPositions[index].x),
               y: calculateDistance(child.position.y, initialPositions[index].y),
@@ -71,7 +72,6 @@ export const createScene2 = async (sizes) => {
   let { text, distances, initialPositions } = await loadText();
 
   scene.add(text);
-  console.log(distances);
 
   return { scene, camera, text, distances, initialPositions };
 };

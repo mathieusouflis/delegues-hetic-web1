@@ -12,113 +12,61 @@ function App() {
     "6g9P=zT(9;NTu:C93ef$TVuPW+nz:>xwEckRGh2rCNcvTps]=CNTKde9)z656P?B";
 
   useEffect(() => {
+    const scrambleGSAP = (text, duration) => {
+      gsap.to(".title", {
+        duration: duration,
+        scrambleText: {
+          chars,
+          text: text,
+          tweenLength: true,
+        },
+      });
+    }
+
     const changePageEvent = (e) => {
       const phase = localStorage.getItem("phase");
-      if (e.key === "ArrowRight") {
-        if (num === 8) {
-          localStorage.setItem("phase", 4);
+        if (e.key === "ArrowRight") {
+          if (num === 8) {
+            localStorage.setItem("phase", 4);
+          }
+          if (phase === "1") {
+            setNum(1);
+            setFocused(false);
+            localStorage.setItem("phase", 2);
+          } else if (phase === "3") {
+            setNum((old) => old + 1);
+          }
         }
-        if (phase === "1") {
-          setNum(1);
-          setFocused(false);
-          localStorage.setItem("phase", 2);
-        } else if (phase === "3") {
-          setNum((old) => old + 1);
-        }
-      }
-      e.key === "ArrowLeft" && setNum((old) => old - 1);
+        e.key === "ArrowLeft" && setNum((old) => old - 1);
     };
 
     switch (num) {
       case 0:
-        gsap.to(".title", {
-          duration: 3,
-          scrambleText: {
-            chars,
-            text: "Noa & Mathieu",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("Noa & Mathieu", 3)
         break;
       case 1:
-        gsap.to(".title", {
-          duration: 0,
-          scrambleText: {
-            chars,
-            text: "# 1",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("# 1", 1)
         break;
       case 2:
-        gsap.to(".title", {
-          duration: 3,
-          scrambleText: {
-            chars,
-            text: "Communication",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("Communication", 3)
         break;
       case 3:
-        gsap.to(".title", {
-          duration: 1,
-          scrambleText: {
-            chars,
-            text: "# 2",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("# 2", 1)
         break;
       case 4:
-        gsap.to(".title", {
-          duration: 3,
-          scrambleText: {
-            chars,
-            text: "Problèmes",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("Problèmes", 3)
         break;
       case 5:
-        gsap.to(".title", {
-          duration: 1,
-          scrambleText: {
-            chars,
-            text: "# 3",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("# 3", 1)
         break;
       case 6:
-        gsap.to(".title", {
-          duration: 3,
-          scrambleText: {
-            chars,
-            text: "Abscences",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("Abscences", 3)
         break;
       case 7:
-        gsap.to(".title", {
-          duration: 1,
-          scrambleText: {
-            chars,
-            text: "# 4",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("# 4", 1)
         break;
       case 8:
-        gsap.to(".title", {
-          duration: 3,
-          scrambleText: {
-            chars,
-            text: "SOS",
-            tweenLength: true,
-          },
-        });
+        scrambleGSAP("SOS", 3)
         break;
       default:
         console.log(num);

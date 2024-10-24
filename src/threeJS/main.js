@@ -20,15 +20,16 @@ const init = async () => {
   let transition = false;
   let phase3Complete = false;
   localStorage.setItem("phase", 1);
-
+  const clock = new THREE.Clock();
   const tick = () => {
+    const elapsedTime = clock.getDelta();
     const phase = localStorage.getItem("phase");
     if (phase !== "4") {
       if (phase === "2") page.style.display = "none";
       if (phase === "3") page.style.display = "flex";
-      animateScene1(scene1);
+      animateScene1(scene1, elapsedTime);
       renderer.shadowMap.enabled = true;
-      renderer.render(scene1.scene, scene1.camera);
+      renderer.render(scene1.scene, scene1.cameraGroup.children[0]);
     } else {
       animateScene2(scene2, transition);
       renderer.render(scene2.scene, scene2.camera);
@@ -44,7 +45,7 @@ const init = async () => {
     window.requestAnimationFrame(tick);
   };
 
-  tick();
+  tick()
 };
 
 init();
