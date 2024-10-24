@@ -7,7 +7,7 @@ function App() {
   const [num, setNum] = useState(0);
   const [focused, setFocused] = useState(true);
   gsap.registerPlugin(ScrambleTextPlugin);
-
+  console.log("feur")
   const chars =
     "6g9P=zT(9;NTu:C93ef$TVuPW+nz:>xwEckRGh2rCNcvTps]=CNTKde9)z656P?B";
 
