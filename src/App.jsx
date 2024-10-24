@@ -75,7 +75,7 @@ function App() {
           duration: 3,
           scrambleText: {
             chars,
-            text: "Lacunes",
+            text: "Problèmes",
             tweenLength: true,
           },
         });
@@ -115,7 +115,7 @@ function App() {
           duration: 3,
           scrambleText: {
             chars,
-            text: "Problèmes",
+            text: "SOS",
             tweenLength: true,
           },
         });

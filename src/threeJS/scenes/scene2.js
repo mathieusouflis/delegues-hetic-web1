@@ -30,7 +30,7 @@ export const createScene2 = async (sizes) => {
   const loader = new GLTFLoader();
 
   const loadText = async () => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       loader.load(
         "./src/threeJS/objects/merci.glb",
         (gltf) => {
