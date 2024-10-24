@@ -21,52 +21,52 @@ function App() {
           tweenLength: true,
         },
       });
-    }
+    };
 
     const changePageEvent = (e) => {
       const phase = localStorage.getItem("phase");
-        if (e.key === "ArrowRight") {
-          if (num === 8) {
-            localStorage.setItem("phase", 4);
-          }
-          if (phase === "1") {
-            setNum(1);
-            setFocused(false);
-            localStorage.setItem("phase", 2);
-          } else if (phase === "3") {
-            setNum((old) => old + 1);
-          }
+      if (e.key === "ArrowRight") {
+        if (num === 8) {
+          localStorage.setItem("phase", 4);
         }
-        e.key === "ArrowLeft" && setNum((old) => old - 1);
+        if (phase === "1") {
+          setNum(1);
+          setFocused(false);
+          localStorage.setItem("phase", 2);
+        } else if (phase === "3") {
+          setNum((old) => old + 1);
+        }
+      }
+      e.key === "ArrowLeft" && setNum((old) => old - 1);
     };
 
     switch (num) {
       case 0:
-        scrambleGSAP("Noa & Mathieu", 3)
+        scrambleGSAP("Noa & Mathieu", 3);
         break;
       case 1:
-        scrambleGSAP("# 1", 1)
+        scrambleGSAP("# 1", 1);
         break;
       case 2:
-        scrambleGSAP("Communication", 3)
+        scrambleGSAP("Communication", 3);
         break;
       case 3:
-        scrambleGSAP("# 2", 1)
+        scrambleGSAP("# 2", 1);
         break;
       case 4:
-        scrambleGSAP("Problèmes", 3)
+        scrambleGSAP("Médiation", 3);
         break;
       case 5:
-        scrambleGSAP("# 3", 1)
+        scrambleGSAP("# 3", 1);
         break;
       case 6:
-        scrambleGSAP("Abscences", 3)
+        scrambleGSAP("Abscences", 3);
         break;
       case 7:
-        scrambleGSAP("# 4", 1)
+        scrambleGSAP("# 4", 1);
         break;
       case 8:
-        scrambleGSAP("SOS", 3)
+        scrambleGSAP("SOS", 3);
         break;
       default:
         console.log(num);
