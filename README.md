@@ -7,7 +7,7 @@ Thanks goes to my wonderful collegue ([emoji key](https://allcontributors.org/do
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/noa-miramont"><img src="https://avatars.githubusercontent.com/noa-miramont?v=4" width="100px;" alt=""/><br /><sub><b>Noa Miramont</b></sub></a><br />💻 📖</td>
+    <td align="center"><a href="https://github.com/noa-miramont"><img src="https://avatars.githubusercontent.com/noa-miramont?v=4" width="100px;" alt=""/><br /><sub><b>Noa Miramont</b></sub></a><br /></td>
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
